@@ -8,7 +8,7 @@ export default class WKWebView extends WebView {
 
   static propTypes = {
     ...WebView.propTypes,
-    injectJavaScript: PropTypes.string,
+    initialJavaScript: PropTypes.string,
   };
 
   goForward = () => {
@@ -83,7 +83,7 @@ export default class WKWebView extends WebView {
     const DAppBrowser = (
       <RCTDAppBrowser
         {...webview.props}
-        injectJavaScript={this.props.injectJavaScript}
+        initialJavaScript={this.props.initialJavaScript}
         ref="webview"
 
       />

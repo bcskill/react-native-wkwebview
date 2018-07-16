@@ -57,8 +57,8 @@ public class DAppBrowser extends ReactWebViewManager {
     view.setWebViewClient(new DAppWebViewClient(client, new UrlHandlerManager()));
   }
 
-  @ReactProp(name = "injectJavaScript")
-  public void setInjectJavaScript(WebView view, String initialJavaScript) {
+  @ReactProp(name = "initialJavaScript")
+  public void setInitialJavaScript(WebView view, String initialJavaScript) {
     JsInjectorClient client = sJsInjectorClientMap.get(view.hashCode());
     if (client != null) {
       client.setDAppSDK(initialJavaScript);

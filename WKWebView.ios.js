@@ -203,7 +203,7 @@ class WKWebView extends React.Component {
      * If false injectJavaScript will run both main frame and iframe
      * @platform ios
      */
-    injectJavaScriptForMainFrameOnly: PropTypes.bool,
+    initialJavaScriptForMainFrameOnly: PropTypes.bool,
     /**
      * If false injectedJavaScript will run both main frame and iframe
      * @platform ios
@@ -212,7 +212,7 @@ class WKWebView extends React.Component {
     /**
      * Function that accepts a string that will be passed to the WebView and executed immediately as JavaScript.
      */
-    injectJavaScript: PropTypes.string,
+    initialJavaScript: PropTypes.string,
     /**
      * Sets the JS to be injected when the webpage loads.
      */
@@ -331,9 +331,9 @@ class WKWebView extends React.Component {
         style={webViewStyles}
         contentInsetAdjustmentBehavior={this.props.contentInsetAdjustmentBehavior}
         source={resolveAssetSource(source)}
-        injectJavaScriptForMainFrameOnly={this.props.injectJavaScriptForMainFrameOnly}
+        injectJavaScriptForMainFrameOnly={this.props.initialJavaScriptForMainFrameOnly}
         injectedJavaScriptForMainFrameOnly={this.props.injectedJavaScriptForMainFrameOnly}
-        injectJavaScript={this.props.injectJavaScript}
+        injectJavaScript={this.props.initialJavaScript}
         injectedJavaScript={this.props.injectedJavaScript}
         bounces={this.props.bounces}
         scrollEnabled={this.props.scrollEnabled}
@@ -441,9 +441,15 @@ class WKWebView extends React.Component {
     );
   };
 
-  evaluateJavaScript = (js) => {
+  /**
+   * Change to injectJavaScript, consistent with RN official API
+   */
+  injectJavaScript = (js) => {
     return WKWebViewManager.evaluateJavaScript(this.getWebViewHandle(), js);
   };
+  // evaluateJavaScript = (js) => {
+  //   return WKWebViewManager.evaluateJavaScript(this.getWebViewHandle(), js);
+  // };
 
   /**
    * We return an event with a bunch of fields including:
