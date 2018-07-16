@@ -200,19 +200,21 @@ class WKWebView extends React.Component {
     startInLoadingState: PropTypes.bool,
     style: ViewPropTypes.style,
     /**
+     * * !!! This prop is exported as initialJavaScriptForMainFrameOnly !!!
      * If false injectJavaScript will run both main frame and iframe
      * @platform ios
      */
-    initialJavaScriptForMainFrameOnly: PropTypes.bool,
+    injectJavaScriptForMainFrameOnly: PropTypes.bool,
     /**
      * If false injectedJavaScript will run both main frame and iframe
      * @platform ios
      */
     injectedJavaScriptForMainFrameOnly: PropTypes.bool,
     /**
+     * !!! This prop is exported as initialJavaScript !!!
      * Function that accepts a string that will be passed to the WebView and executed immediately as JavaScript.
      */
-    initialJavaScript: PropTypes.string,
+    injectJavaScript: PropTypes.string,
     /**
      * Sets the JS to be injected when the webpage loads.
      */

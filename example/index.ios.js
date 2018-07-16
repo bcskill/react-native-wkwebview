@@ -20,9 +20,11 @@ export default class example extends Component {
           source={{ uri: 'https://example.org/' }}
           onMessage={(e) => console.log(e.nativeEvent)}
           injectedJavaScript="window.postMessage('Hello from WkWebView');"
+          initialJavaScript="alert('xyz')"
         />
         <Text style={{ fontWeight: 'bold', padding: 10 }} onPress={() => this.webview.reload()}>Reload</Text>
         <Text style={{ fontWeight: 'bold', padding: 10 }} onPress={() => this.webview.postMessage("Hello from React Native")}>Post Message</Text>
+        <Text style={{ fontWeight: 'bold', padding: 10 }} onPress={() => this.webview.injectJavaScript("alert('injectJS')")}>InjectJS</Text>
       </View>
     );
   }
