@@ -1,0 +1,37 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml:1:1-2:71
+INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml:1:1-2:71
+INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml:1:1-2:71
+INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml:1:1-2:71
+INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml:1:1-2:71
+INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml:1:1-2:71
+INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml:1:1-2:71
+	package
+		ADDED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml:1:11-49
+		INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+		INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+		ADDED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml:1:1-2:71
+		INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+		ADDED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml:1:1-2:71
+		INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml:2:11-69
+uses-sdk
+INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+		ADDED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+		INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+		ADDED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
+		INJECTED from /Users/xyz/Documents/code/react-native-wkwebview/android/dappbrowser/src/main/AndroidManifest.xml
