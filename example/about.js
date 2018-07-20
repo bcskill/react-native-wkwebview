@@ -5,9 +5,10 @@ import {
   Text,
   View
 } from 'react-native';
-import WkWebView from 'react-native-wkwebview-reborn';
+import WkWebView from 'react-native-wkwebview';
 
-export default class example extends Component {
+
+export default class About extends Component {
   render() {
     return (
       <View style={{ flex: 1, marginTop: 20 }}>
@@ -30,4 +31,3 @@ export default class example extends Component {
   }
 }
 
-AppRegistry.registerComponent('example', () => example);

@@ -72,10 +72,10 @@
     "type": "git",
     "url": "git+https://github.com/CRAlpha/react-native-wkwebview.git"
   },
+  "rnpm": { "android": { "project": "./android/dappbrowser" } },
   "scripts": {
     "lint": "eslint --ext .js --ext .jsx .",
-    "sync-from-example": "cp ./example/node_modules/react-native-wkwebview-reborn/*.js ./;cp -r ./example/node_modules/react-native-wkwebview-reborn/ios ./",
-    "sync-to-example": "cp ./*.js ./example/node_modules/react-native-wkwebview-reborn/;cp -r ./ios ./example/node_modules/react-native-wkwebview-reborn/"
+    "sync-to-example": "rm -rf ./example/node_modules/react-native-wkwebview;mkdir -p ./example/node_modules/react-native-wkwebview;cp ./*.js ./example/node_modules/react-native-wkwebview/;cp -r ./ios ./example/node_modules/react-native-wkwebview/;cp -r ./android ./example/node_modules/react-native-wkwebview/"
   },
   "version": "2.0.3"
 }
