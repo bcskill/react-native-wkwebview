@@ -1,6 +1,6 @@
 ## WKWebView Component for React Native
 
-Thanks Ruoyu Sun for his great job. We fork `react-native-wkwebview-reborn` project for adding `initialJavaScript` prop to android WebView. The `initialJavaScirpt` prop receives a string, and will run the script at dom starting. For more info about the feature of WKWebView, Pls check the [react-native-wkwebview-reborn](https://github.com/CRAlpha/react-native-wkwebview). To implement the inject JavaScript at document starting, we 'steal' a lot things from TrustWallet Web3View. Thanks TrustWallet
+Thanks Ruoyu Sun for his great job. We fork `react-native-wkwebview-reborn` project for adding `initialJavaScript` prop to android WebView. The `initialJavaScirpt` prop receives a string, and will run the script at dom starting. For more info about the feature of WKWebView, Pls check the [react-native-wkwebview-reborn](https://github.com/CRAlpha/react-native-wkwebview). To implement injecting JavaScript at document starting, we 'steal' a lot things from TrustWallet Web3View. Thanks TrustWallet
 
 ### Install
 
