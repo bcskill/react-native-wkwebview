@@ -77,6 +77,6 @@ export default class Example extends Component {
 
 Try replacing your existing `WebView` with `WKWebView` and it should work in most cases. 
 
-**Thanks Ruoyu Sun for `react-native-wkwebview-reborn` and TrustWallet for `[Web3View](https://github.com/TrustWallet/Web3View)`**
+**Thanks Ruoyu Sun for `react-native-wkwebview-reborn` and TrustWallet for [Web3View](https://github.com/TrustWallet/Web3View)**
 
 
