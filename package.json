@@ -45,5 +45,5 @@
     "lint": "eslint --ext .js --ext .jsx .",
     "sync-to-example": "rm -rf ./example/node_modules/react-native-wkwebview;mkdir -p ./example/node_modules/react-native-wkwebview;cp ./*.js ./example/node_modules/react-native-wkwebview/;cp -r ./ios ./example/node_modules/react-native-wkwebview/;cp -r ./android ./example/node_modules/react-native-wkwebview/"
   },
-  "version": "2.0.4"
+  "version": "2.0.5"
 }
