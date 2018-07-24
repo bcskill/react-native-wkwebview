@@ -151,7 +151,7 @@ public class DAppBrowser extends ReactWebViewManager {
         } catch (Exception ex) {
           return null;
         }
-        if (jsInjectorResponse == null || jsInjectorResponse.isRedirect) {
+        if (jsInjectorResponse == null || jsInjectorResponse.data == null || jsInjectorResponse.isRedirect) {
           return null;
         } else {
           ByteArrayInputStream inputStream = new ByteArrayInputStream(jsInjectorResponse.data.getBytes());
